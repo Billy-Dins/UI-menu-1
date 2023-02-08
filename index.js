@@ -1,3 +1,11 @@
-import hello from './src/menu.js'
+import toggleMenu from './src/drop_down_one.js'
 
-hello()
+import menuOne from './src/styles/menu_one_styles.css'
+
+import menu from './src/assets/menu.png'
+
+const menuButton = document.querySelector('#menu-btn')
+
+menuButton.addEventListener('click', () => {
+    toggleMenu();
+})

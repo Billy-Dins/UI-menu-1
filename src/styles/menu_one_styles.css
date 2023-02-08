@@ -1,0 +1,16 @@
+#menu-banner {
+ width: 33vw;
+ background-color: blueviolet;
+ border-radius: 5px 5px 0px 0px;
+padding: 5px;
+}
+
+#menu-one-dropdown {
+    width: 33vw;
+    background-color: salmon;
+    border-radius: 0px 0px 5px 5px;
+padding: 5px;
+}
+.hidden {
+    display: none;
+}
