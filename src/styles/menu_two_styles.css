@@ -3,16 +3,27 @@
 #menu-2-dropdown {
     width: 10vw;
 }
+.menu-two-main-btn{
+    width: 40px;
+    border-radius: 50%;
+}
+.menu-two-btn {
+    background: none;
+    border: 0px;
+    cursor: pointer;
+}
+
 .menu-two-item{
     margin-bottom: 10px;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background-color: red;
 }
 .menu-two-img {
-    width: 50px;
-    height: 50px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
 }
 ul{
     padding-left: 5px;
