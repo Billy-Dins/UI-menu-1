@@ -1,34 +1,33 @@
 
 
-#menu-2-dropdown {
-    width: 10vw;
-}
 .menu-two-main-btn{
-    width: 40px;
     border-radius: 50%;
 }
+#menu-two {
+    width: 10vw;
+}
 .menu-two-btn {
-    background: none;
-    border: 0px;
     cursor: pointer;
 }
-
-.menu-two-item{
-    margin-bottom: 10px;
+.menu-two-img {
+    border-radius: 50%;
+    height: 0px;
+    background-color: red;
+    transition: height 0.4s linear;
+}
+#menu-2-dropdown {
+    height: 0px;
+}
+.menu-two-btn:hover #menu-2-dropdown{
+    height: auto;
+}
+.menu-two-btn:hover .menu-two-img {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-color: red;
 }
-.menu-two-img {
+.menu-two-img:hover {
     padding: 5px;
-    width: 30px;
-    height: 30px;
-}
-ul{
-    padding-left: 5px;
-}
-li {
-    list-style: none;
-    padding: 0px;
+    background-color: purple;
+    transition: all 0.4s ease-in-out;
 }
