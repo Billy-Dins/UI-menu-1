@@ -1,0 +1,33 @@
+*, *::after, *::before {
+    padding: 0px;
+    margin: 0px;
+}
+
+#carousel-frame {
+    background-color: red;
+    width: 100vw;
+    height: 65vh;
+}
+
+.prev-pic, .next-pic {
+    cursor: pointer;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 4rem;
+}
+.prev-pic {
+    left: 0px;
+}
+.next-pic {
+    right: 0px;
+}
+.carousel {
+}
+.carousel-slide {
+    display: flex;
+    object-fit: cover;
+    object-position: center;
+}

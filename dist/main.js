@@ -16,7 +16,17 @@
   \******************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_drop_down_one_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/drop_down_one.js */ \"./src/drop_down_one.js\");\n/* harmony import */ var _src_styles_menu_one_styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/styles/menu_one_styles.css */ \"./src/styles/menu_one_styles.css\");\n/* harmony import */ var _src_styles_menu_two_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/styles/menu_two_styles.css */ \"./src/styles/menu_two_styles.css\");\n/* harmony import */ var _src_assets_menu_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/assets/menu.png */ \"./src/assets/menu.png\");\n/* harmony import */ var _src_assets_plus_gif__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./src/assets/plus.gif */ \"./src/assets/plus.gif\");\n/* harmony import */ var _src_assets_camera_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./src/assets/camera.png */ \"./src/assets/camera.png\");\n/* harmony import */ var _src_assets_alarm_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./src/assets/alarm.png */ \"./src/assets/alarm.png\");\n/* harmony import */ var _src_assets_clip_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./src/assets/clip.png */ \"./src/assets/clip.png\");\n/* harmony import */ var _src_assets_pen_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./src/assets/pen.png */ \"./src/assets/pen.png\");\n\n\n\n\n\n\n\n\n\n\n\n\nconst menuOneButton = document.querySelector('.menu-one-btn')\nconst menuTwoButton = document.querySelector('.menu-two-btn')\n\n\nmenuOneButton.addEventListener('click', () => {\n    ;(0,_src_drop_down_one_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(menuOneButton.id);\n})\n\nmenuTwoButton.addEventListener('click', () => {\n    ;(0,_src_drop_down_one_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(menuTwoButton.id);\n})\n\n//# sourceURL=webpack://ui-menu-1/./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_toggle_hidden_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/toggle_hidden.js */ \"./src/toggle_hidden.js\");\n/* harmony import */ var _src_styles_menu_one_styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/styles/menu_one_styles.css */ \"./src/styles/menu_one_styles.css\");\n/* harmony import */ var _src_styles_menu_two_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/styles/menu_two_styles.css */ \"./src/styles/menu_two_styles.css\");\n/* harmony import */ var _src_assets_menu_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/assets/menu.png */ \"./src/assets/menu.png\");\n/* harmony import */ var _src_assets_plus_gif__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./src/assets/plus.gif */ \"./src/assets/plus.gif\");\n/* harmony import */ var _src_assets_camera_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./src/assets/camera.png */ \"./src/assets/camera.png\");\n/* harmony import */ var _src_assets_alarm_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./src/assets/alarm.png */ \"./src/assets/alarm.png\");\n/* harmony import */ var _src_assets_clip_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./src/assets/clip.png */ \"./src/assets/clip.png\");\n/* harmony import */ var _src_assets_pen_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./src/assets/pen.png */ \"./src/assets/pen.png\");\n/* harmony import */ var _src_styles_carousel_styles_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./src/styles/carousel_styles.css */ \"./src/styles/carousel_styles.css\");\n/* harmony import */ var _src_assets_carousel_alley_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./src/assets/carousel/alley.jpg */ \"./src/assets/carousel/alley.jpg\");\n/* harmony import */ var _src_assets_carousel_alley2_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./src/assets/carousel/alley2.jpg */ \"./src/assets/carousel/alley2.jpg\");\n/* harmony import */ var _src_assets_carousel_restaurant_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./src/assets/carousel/restaurant.jpg */ \"./src/assets/carousel/restaurant.jpg\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconst menuOneButton = document.querySelector('.menu-one-btn')\nconst menuTwoButton = document.querySelector('.menu-two-btn')\n\n\nmenuOneButton.addEventListener('click', () => {\n    ;(0,_src_toggle_hidden_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(menuOneButton.id);\n})\n\nmenuTwoButton.addEventListener('click', () => {\n    ;(0,_src_toggle_hidden_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(menuTwoButton.id);\n})\n\n//# sourceURL=webpack://ui-menu-1/./index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/styles/carousel_styles.css":
+/*!******************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/styles/carousel_styles.css ***!
+  \******************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"*, *::after, *::before {\\n    padding: 0px;\\n    margin: 0px;\\n}\\n\\n#carousel-frame {\\n    background-color: red;\\n    width: 100vw;\\n    height: 65vh;\\n}\\n\\n.prev-pic, .next-pic {\\n    cursor: pointer;\\n    border: none;\\n    background: none;\\n    position: absolute;\\n    top: 40%;\\n    transform: translateY(-50%);\\n    font-size: 4rem;\\n}\\n.prev-pic {\\n    left: 0px;\\n}\\n.next-pic {\\n    right: 0px;\\n}\\n.carousel {\\n}\\n.carousel-slide {\\n    display: flex;\\n    object-fit: cover;\\n    object-position: center;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://ui-menu-1/./src/styles/carousel_styles.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -57,6 +67,16 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://ui-menu-1/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/styles/carousel_styles.css":
+/*!****************************************!*\
+  !*** ./src/styles/carousel_styles.css ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_carousel_styles_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./carousel_styles.css */ \"./node_modules/css-loader/dist/cjs.js!./src/styles/carousel_styles.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_carousel_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_carousel_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_carousel_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_carousel_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://ui-menu-1/./src/styles/carousel_styles.css?");
 
 /***/ }),
 
@@ -140,13 +160,13 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
-/***/ "./src/drop_down_one.js":
+/***/ "./src/toggle_hidden.js":
 /*!******************************!*\
-  !*** ./src/drop_down_one.js ***!
+  !*** ./src/toggle_hidden.js ***!
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst toggleMenu = function(id) {\n    const menuBody = document.getElementById(`menu-${id}-dropdown`)\n    menuBody.classList.toggle('hidden')\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (toggleMenu);\n\n//# sourceURL=webpack://ui-menu-1/./src/drop_down_one.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst toggleMenu = function(id) {\n    const menuBody = document.getElementById(`menu-${id}-dropdown`)\n    menuBody.classList.toggle('hidden')\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (toggleMenu);\n\n//# sourceURL=webpack://ui-menu-1/./src/toggle_hidden.js?");
 
 /***/ }),
 
@@ -167,6 +187,36 @@ eval("module.exports = __webpack_require__.p + \"3245980f63dade6a8cad.png\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"294e9613416ced5da0c8.png\";\n\n//# sourceURL=webpack://ui-menu-1/./src/assets/camera.png?");
+
+/***/ }),
+
+/***/ "./src/assets/carousel/alley.jpg":
+/*!***************************************!*\
+  !*** ./src/assets/carousel/alley.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e5087c89a7cc2241b508.jpg\";\n\n//# sourceURL=webpack://ui-menu-1/./src/assets/carousel/alley.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/carousel/alley2.jpg":
+/*!****************************************!*\
+  !*** ./src/assets/carousel/alley2.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1d9152fe224d121ebea0.jpg\";\n\n//# sourceURL=webpack://ui-menu-1/./src/assets/carousel/alley2.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/carousel/restaurant.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/carousel/restaurant.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"4cb2ee168d46fe061387.jpg\";\n\n//# sourceURL=webpack://ui-menu-1/./src/assets/carousel/restaurant.jpg?");
 
 /***/ }),
 
