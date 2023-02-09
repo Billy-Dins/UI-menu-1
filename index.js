@@ -1,4 +1,5 @@
 import toggleMenu from './src/toggle_hidden.js'
+import { showSlides, plusSlides} from './src/carousel.js'
 
 import menuOne from './src/styles/menu_one_styles.css'
 
@@ -19,6 +20,15 @@ import restaurant from './src/assets/carousel/restaurant.jpg'
 const menuOneButton = document.querySelector('.menu-one-btn')
 const menuTwoButton = document.querySelector('.menu-two-btn')
 
+const prev = document.querySelector('.prev-pic')
+const next = document.querySelector('.next-pic')
+
+prev.addEventListener('click', () => {
+    plusSlides(-1)
+})
+next.addEventListener('click', () => {
+    plusSlides(+1)
+})
 
 menuOneButton.addEventListener('click', () => {
     toggleMenu(menuOneButton.id);

@@ -2,21 +2,26 @@
     padding: 0px;
     margin: 0px;
 }
-
-#carousel-frame {
-    background-color: red;
-    width: 100vw;
-    height: 65vh;
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+.carousel {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
 .prev-pic, .next-pic {
+    z-index: 2;
     cursor: pointer;
     border: none;
     background: none;
     position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
+    top: 25%;
     font-size: 4rem;
+    transition: 0.6s ease;
+    background-color: rgba(255,255,255, 0.1);
 }
 .prev-pic {
     left: 0px;
@@ -24,10 +29,35 @@
 .next-pic {
     right: 0px;
 }
-.carousel {
+.prev-pic:hover, .next-pic:hover {
+    background-color: rgba(0,0,0, 0.2);
 }
 .carousel-slide {
-    display: flex;
+    display: none;
     object-fit: cover;
     object-position: center;
+}
+.carousel-slide img {
+    z-index: -1;
+    width: 100vw;
+}
+.number-text {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.caption-text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
