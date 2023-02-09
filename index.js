@@ -13,8 +13,8 @@ import pen from './src/assets/pen.png'
 
 import carouselStyle from './src/styles/carousel_styles.css'
 import alleyOne from './src/assets/carousel/alley.jpg'
-import alleyTwo from './src/assets/carousel/alley2.jpg'
-import restaurant from './src/assets/carousel/restaurant.jpg'
+import market from './src/assets/carousel/market.jpg'
+import boat from './src/assets/carousel/boat.jpg'
 
 
 const menuOneButton = document.querySelector('.menu-one-btn')
@@ -27,7 +27,7 @@ prev.addEventListener('click', () => {
     plusSlides(-1)
 })
 next.addEventListener('click', () => {
-    plusSlides(+1)
+    plusSlides(1)
 })
 
 menuOneButton.addEventListener('click', () => {

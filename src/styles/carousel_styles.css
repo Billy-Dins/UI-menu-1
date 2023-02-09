@@ -20,8 +20,9 @@ ul {
     position: absolute;
     top: 25%;
     font-size: 4rem;
+    padding-bottom: 5px;
     transition: 0.6s ease;
-    background-color: rgba(255,255,255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .prev-pic {
     left: 0px;
@@ -30,7 +31,7 @@ ul {
     right: 0px;
 }
 .prev-pic:hover, .next-pic:hover {
-    background-color: rgba(0,0,0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 .carousel-slide {
     display: none;
