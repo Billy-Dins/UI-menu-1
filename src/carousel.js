@@ -25,4 +25,4 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
 }
 
-export { showSlides, plusSlides }
+export { showSlides, plusSlides, currentSlide }
