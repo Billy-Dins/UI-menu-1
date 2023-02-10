@@ -68,3 +68,21 @@ ul {
     animation-name: fade;
     animation-duration: 1.5s;
 }
+.dot-container {
+    position: relative;
+    top: 0;
+    text-align: center;
+}
+.slide-dot {
+    cursor: pointer;
+    background-color: rgb(170, 170, 170);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2px;
+    width: 15px;
+    height: 15px;
+    transition: background-color 0.6s ease;
+}
+.active, .slide-dot:hover {
+    background-color: black
+}
